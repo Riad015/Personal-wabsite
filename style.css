@@ -1,3 +1,92 @@
-h1{
+body{
+    margin: 0px;
+    font-family: 'Akshar', sans-serif;
+font-family: 'Cookie', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Lalezar', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Teko', sans-serif;
+}
+
+.half{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+.half img{
+    width: 100%;
+}
+
+span{
     color: #ec4b73;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.link{
+    color: white;
+    padding: 5px 20px;
+    background-color: #ec4b73;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.first{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section{
+    height: 500px;
+}
+#pro-pic2{
+    width: 80%;
+}
+.second{
+    background-image: url(images/biography-bg.png);
+    background-size: 100%;
+}
+#write{
+  padding-top: 150px;
+}
+.work{
+    width: 30%;
+}
+.latest-half img{
+    margin: 1%;
+}
+.latest-half{
+    margin: 5%
+}
+.latest{
+    background-image: url(images/latest-work-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.clint{
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mail a{
+    text-decoration: none;
+    color: white;
+}
+.mail{
+   background-color: #ec4b73;
+   margin-left: 30%;
+   margin-right: 30%;
+   border-radius: 8px;
+}
+footer p{
+    text-align: center;
 }
